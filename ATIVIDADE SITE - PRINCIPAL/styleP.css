@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', "Arial";
+    background: linear-gradient(-45deg, #522FBF, #A746EE, #7134CF, purple);
+    background-size: 300% 1000%;
+    animation: gradient 5s ease infinite;
+    height: 50vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/*HEADER*/
+header{
+    background: linear-gradient(320deg, rgb(126, 85, 240), #a506a5, rgb(75, 85, 131));
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo_empresa{
+    width: 13%;
+
+}
+
+.lista_header{
+    width: auto; 
+    align-items: center;
+    position:relative;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(21, 67, 168);
+    text-decoration: underline;
+}
+
+
+.lista_header nav{
+    right: 50%;
+    top: 50px;
+    
+}
+nav li{
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+/*SEPARAS*/
+
+.separas{
+    padding: 1px;
+    background: black;
+}
+
+/*Produtos*/
+li {
+    list-style: none;
+}
+
+.bodyside{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 2% 2% 10% 2%;
+}
+
+.bodyside li {
+    border: 5px black double;
+    border-radius:  50px 60px 50px 60px ;
+    box-shadow:12px 10px 8px black;
+}
+
+.bodyside li:hover{
+    border: double goldenrod 5px;
+    box-shadow: none;
+}
+
+/*TITULO*/
+.titulos{
+    margin: 0 0 0 0; 
+    padding: 3% 0 2% 5.8%;
+    color:rgb(255, 255, 255);
+}
+
+
+/*ITEMS*/
+
+
+
+.bodyside h3 {
+    margin: 0% 0% 0% 0% ;
+    padding: 3% 0% 5% 0%;
+    color: white;
+    text-align: center;
+}
+
+.bodyside img{
+    width: 95%;
+    padding: 0% 0% 3% 2.5% ;
+    
+}
+
+img :hover{
+    border: 0px blue;
+}
+
+.bodyside p{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 2% 0% 3% 0 ;
+}
+
+footer{
+    text-align: center;
+    background-color: #000000c5;
+    padding: 40px 0;
+
+}
+.image_banner{
+    width: 100%;
+}
+.roda{
+    width: 10%;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.textoF{
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 2%;
+}
