@@ -9,8 +9,8 @@ body{
 }
 /*Estilização da sessão HEADER da pagina*/
 header{
-    background: linear-gradient(rgba(140, 79, 165, 0.899), rgba(0, 0, 0, 1));
-    padding: 20px 0;
+    background: linear-gradient(320deg, rgb(126, 85, 240), #7c097c, rgb(75, 85, 131));
+    padding: 15px;
 }
 /*Estilização da sessão NAV*/
 nav{
@@ -33,7 +33,6 @@ nav a{
 nav a:hover{
     color: rgb(21, 67, 168);
     text-decoration: underline;
-
 }
 /*Estilização das listasda pagina*/
 ul{
@@ -50,7 +49,9 @@ ul{
 }
 
 .logo_empresa{
-    width: 30%;
+    width: 25%;
+    margin-left: 15%;
+    margin-top:5%;
 }
 
 h2{
@@ -66,7 +67,7 @@ h2{
 .separas{
     background: linear-gradient(rgb(0, 0, 0), #000000);
     margin-top: 0px;
-    padding: 20px;
+    padding: 1px;
 }
 .image_banner{
     width: 100%;
@@ -88,7 +89,6 @@ main p{
 }
 
 .principal{
-    width: 100%;
     margin: -10px; 
     margin-left: 0px;
     padding: 2em 0px;
@@ -115,10 +115,9 @@ main p{
 }
 
 .meta{
-    
     width: 295px;
     float: left;
-    margin: -40px 20px 20px 0;
+    margin: -20px 20px 20px 0;
 }
 
 
@@ -129,6 +128,9 @@ main p{
     margin: 10px 11px 2em;
     text-align: center;
     margin-left: 60px;
+    text-decoration: underline;
+    font-style:oblique;
+    font-weight: bold;
 }
 
 .Mapa{
@@ -163,25 +165,29 @@ main p{
 }
 
 .conteudo{
-    width: 1040px;
-    margin: -10px auto;
-    margin-left: 400px;
-    color:rgb(255, 255, 255);
+    width: 850px;
+   
     
+    color:rgb(255, 255, 255);
+    margin-left: 27%;
+    margin-right: 27%;
+
+    
+   /* margin-left: 300px;*/
 }
 .Lista_bene{
     width: 50%;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
 }
 
-.Img_beneficios{
-    width: 50%;
+.Img{
+    width: 20%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 5px 0px black;
+    text-shadow: 10px 10px 5px 0px black;
 }
-.Img_beneficios:hover{
+.Img:hover{
     opacity: 0.7;
 }
 .item{
@@ -190,16 +196,15 @@ main p{
 .item:before{
     content:"☑";
 }
-.item:first-child{
-    font-weight: bold;
-}
+
 .Video{
+    text-align: center;
     width: 760px;
     margin: 2em auto;
 }
 
 nav a:hover{
-    color: red;
+    color: rgb(41, 158, 255);
     text-decoration: underline;
 }
 footer{
@@ -210,6 +215,9 @@ footer{
 }
 .image_banner{
     width: 100%;
+}
+.roda{
+    width: 10%;
 }
 .copyright{
     color: #ffffff;
