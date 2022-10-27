@@ -9,8 +9,9 @@ body{
 }
 /*Estilização da sessão HEADER da pagina*/
 header{
+    width: 100%;
     background: linear-gradient(320deg, rgb(126, 85, 240), #7c097c, rgb(75, 85, 131));
-    padding: 15px;
+    
 }
 /*Estilização da sessão NAV*/
 nav{
@@ -28,6 +29,10 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+h1{
+    margin: 0 0 0 0;
 }
 
 nav a:hover{
@@ -71,6 +76,7 @@ h2{
 }
 .image_banner{
     width: 100%;
+    margin: 0 0 0 0;
 }
 
 /* Aula 6 Sobre a empresa e baianin*/
@@ -88,9 +94,13 @@ main p{
 
 }
 
+
+section{
+    margin: 0 0 0 0;
+}
 .principal{
-    margin: -10px; 
-    margin-left: 0px;
+     
+    margin: -0.1% 0% 0% 0%;
     padding: 2em 0px;
     background: linear-gradient(rgba(38, 22, 67, 0.92), rgba(0, 0, 0));
     text-align: justify;

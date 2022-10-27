@@ -3,57 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="Logo NEW VERSE 2.0 PNG.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site empresa</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleP.css">
 </head>
 <body>
     <header>
-        <!--logotipo-->
-        <div class="logo_caixa">
-            <h1>
-                <img src="Logo NEW VERSE 2.0 PNG.png" title="New Verse" class="logo_empresa"></img>
-            </h1>
-    
-            <h2>New Verse</h2>
-            <!--itens de menu-->
-            <!--NAV(navegação) representa um setor ao qual estaram links para outras paginas ou sessões do site-->
-            <nav>
-                <!--UL representa uma lista de itens da qual sua ordem não é importante-->
-                <ul>
-                    <!--LI representa um item de lista-->
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="./produto.html">Produtos</a></li>
-                    <li><a href="Experiencia.html">Aulas</a></li>
-                    <li><a href="Formação.html">Contato</a></li>
-                    
-                </ul>
-            </nav>
-        </div>
+        <img src="Logo NEW VERSE 2.0 PNG.png" title="New Verse" class="logo_empresa"></img>
+        <nav class="lista_header">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="Experiencia.html">Aulas</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+    <div class="separas"></div>
 
-    <form name="frmContato" method="get" action="mailto:tste@gmail.com" target="_blank">
-        <fieldset>
-            <legend>Dados Pessoais</legend>
-            <label for="nomesobrenome">* Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+    <h2 class="titulosC">Contato:</h2>
+    
+    
+        <form name="frmContato" method="get" action="mailto:tste@gmail.com" target="_blank">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nomesobrenome">* Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
 
-            <label for="email">* E-mail</label>
-            <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
+                <label for="email">* E-mail</label> 
+                <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-            <label for="telefone">* Telefone</label>
-            <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(xx) xxxx-xxxx">
+                <label for="telefone">* Telefone</label>
+                <input type="tel" id="telefone" name="" class="input-tele" placeholder="(xx) xxxx-xxxx">
 
-            <label for="mensagem">* Mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                <label for="mensagem">* Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
-            <label for="contato">Como prefere o nosso contato?
+                <label for="contato" class="radioBt">Como prefere o nosso contato?
                 <input type="radio" name="Contato" value="radio-mail">E-mail
                 <input type="radio" name="Contato" value="radio-telefone">Telefone
-                <input type="radio" name="Contato" value="radio-whatapp">radio-whatapp
-            </label>
-            <br>
-            <label for="horario">Qual o motivo do seu contato
+                <input type="radio" name="Contato" value="radio-whatapp">Whats-App
+                </label>
+                <br>
+                <label for="horario">Qual o motivo do seu contato
                 <select>
                     <option>Selecione</option>
                     <option>Dúvida</option>
@@ -65,9 +58,14 @@
             <br>
         </fieldset>
         
-        <label><input type="checkbox" class="chk">Gostaria de receber nossas novidades por e-mail?</label>
-
+        <label class="check"><input type="checkbox" class="chk">Gostaria de receber nossas novidades por e-mail?</label>
+        <br>
         <input type="submit" value="Enviar formulário" class="enviar">
     </form>
+
+    <footer>
+        <img class="roda" src="Logo NEW VERSE 2.0 PNG.png" alt="Bem Vindo ao METAVERSO">
+        <p class="copyright">&copy: copyright NewVerse</p>
+    </footer>
 </body>
 </html>
