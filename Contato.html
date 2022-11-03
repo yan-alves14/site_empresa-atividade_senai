@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site empresa</title>
     <link rel="stylesheet" href="styleP.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script> 
+        alert("Oi meu chapa")
+        dia = new Array ("Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira")
+        mes = new Array ("janeiro","fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro")
+        data = new Date
+    </script>
 </head>
 <body>
     <header>
@@ -23,8 +30,17 @@
     <div class="separas"></div>
 
     <h2 class="titulosC">Contato:</h2>
-    
-    
+    <p style="text-align: right; margin-right: 10px;">
+        <script type="text/javascript">
+            document.write (dia[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear())
+        </script>
+    </p>
+    <P class = "entreCont">
+        Entre em contato com nossa equipe para fazer o orçamento do seu pedido
+        <br>
+        Caso prefira fazer contato direto via Whats-App teremos disponibilidade de segunda a quarta atraves de deste número
+        <a class="whatsapp-link" href="https://wa.me/5599111112222" target="_blank"><i class="fa fa-whatsapp"></i></a> (11) 4444-8888
+    </p>
         <form name="frmContato" method="get" action="mailto:tste@gmail.com" target="_blank">
             <fieldset>
                 <legend>Dados Pessoais</legend>

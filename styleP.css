@@ -238,3 +238,13 @@ textarea{
     }
 }
 
+p{
+    color: white;
+}
+
+.entreCont{
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 12px;
+}
