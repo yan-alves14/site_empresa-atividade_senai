@@ -1,0 +1,314 @@
+/*.form-body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', 'Arial';
+    background: #252525ea;
+    background-size: 400% 1500%;
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+}
+
+form{
+    margin: 9% 9%;
+    color: #ffffff;
+}
+
+fieldset{
+    display: grid;
+    padding: 3% 3%;
+    margin: auto;
+    width: 50%;
+}
+
+fieldset input{
+    width: 35%;
+    margin: 1%;
+}
+
+textarea{
+    margin: 1%;
+}
+
+.radio-button input{
+    width: 10%;
+    margin: 1% -3% 0 0;
+}
+
+.chk{
+    margin: 1% 2% 1% 35%;
+}
+
+.enviar{
+
+    display: inline-block;  
+    border-radius: 4px;  
+    background-color: #8e19bd;  
+    border: none;  
+    color: #FFFFFF;  
+    text-align: center;  
+    font-size: 15px;  
+    padding: 15px;  
+    width: 150px;  
+    transition: all 0.5s;  
+    cursor: pointer;  
+    margin-left: 22%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+.enviar:hover{      
+    background-color: #008CBA;      
+    color: white;
+}
+
+.descricao-form-box{
+    display: block;
+    background: white ;
+    padding: 20px 10px 30px 200px;
+}
+
+.descricao-form-box h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+    color: #6f03f1;
+}
+
+.descricao-form-box p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(42, 38, 48);
+    font-size: 1.3rem;  
+}
+
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', "Arial";
+}
+/*Estilização da sessão HEADER da pagina*/
+header{
+    width: 100%;
+    background: linear-gradient(320deg, rgb(126, 85, 240), #7c097c, rgb(75, 85, 131));
+    
+}
+/*Estilização da sessão NAV*/
+nav{
+    position: absolute;
+    top: 130px;
+    right: -450px;
+}
+nav li{
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+h1{
+    margin: 0 0 0 0;
+}
+
+nav a:hover{
+    color: rgb(21, 67, 168);
+    text-decoration: underline;
+}
+/*Estilização das listasda pagina*/
+ul{
+    list-style:none;
+}
+
+/*Estilização da logotipo*/
+
+.logo_caixa{
+    right: 260px;
+    width: 840px; 
+    position:relative;
+    margin: auto;
+}
+
+.logo_empresa{
+    width: 25%;
+    margin-left: 12%;
+    margin-top:5%;
+}
+
+h2{
+    color: rgb(132, 205, 247);
+    position:absolute;
+    top: 60px;
+    left: 345px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size:40px;
+}
+
+/*FIM HEADER*/
+
+
+
+.descricao-cursos-box{
+    display: block;
+    background: linear-gradient(0deg, white,  rgb(255, 255, 255), rgba(255, 255, 255, 0.873), rgba(255, 255, 255, 0.697), #924ce12c);
+    padding: 3% 15%;
+    margin: 0 0 0 0;
+    /*padding: 20px 10px 150px 100px;*/
+}
+
+.descricao-cursos-box h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+    padding: 3% 15%;
+    color: #c282f7;
+}
+.descricao-cursos-box h2 strong{
+    font-weight: bold;
+}
+
+
+.card1 {
+    background-color: #ffffff;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px 5px 5px 5px;
+    border-color: black;
+    transition: 0.3s;
+    margin-left: 9%;
+    margin-bottom: 15%;
+    margin-top: 7%;
+    
+}
+
+.card1 h4{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+
+}
+
+.card1:hover {
+  box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.329);
+}
+
+.card1:hover h4{
+    text-decoration: underline;
+}
+
+
+.card-resto {
+    background-color: #ffffff;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px 5px 5px 5px;
+    border-color: black;
+    transition: 0.3s;
+    margin-left: 3%;
+    margin-bottom: 10%;
+    margin-top: 7%;
+    
+}
+
+.card-resto h4{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+
+}
+
+.card-resto:hover {
+  box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.329);
+}
+
+.card-resto:hover h4{
+    text-decoration: underline;
+}
+
+
+.container {
+  padding: 1px 10px;
+  
+}
+
+.container p{
+    width: 300px;
+    text-align: center;
+    padding-left: 2%;
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.container h2{
+    width: 300px;
+}
+
+.card1 img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-resto img {
+    border-radius: 5px 5px 0 0;
+}
+
+.button {  
+    display: inline-block;  
+    border-radius: 4px;  
+    background-color: #8e19bd;  
+    border: none;  
+    color: #FFFFFF;  
+    text-align: center;  
+    font-size: 20px;  
+    padding: 15px;  
+    width: 150px;  
+    transition: all 0.5s;  
+    cursor: pointer;  
+    margin-left: 22%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    text-decoration: none;
+    
+}
+.button:hover{      
+    background-color: #008CBA;      
+    color: white;
+}
+
+.curso-destaque{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #9522b8;
+    padding-left: 45%;
+
+}
+
+footer{
+    text-align: center;
+    background-color: #170a1dc5;
+    padding: 40px 0;
+
+}
+.image_banner{
+    width: 100%;
+}
+.roda{
+    width: 10%;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
